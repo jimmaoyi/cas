@@ -28,9 +28,8 @@ import java.util.Collection;
     CouchDbServiceRegistryConfiguration.class
 },
     properties = {
-        "org.ektorp.support.AutoUpdateViewOnChange=true",
-        "cas.serviceRegistry.couchDb.username=",
-        "cas.serviceRegistry.couchDb.password="
+        "cas.serviceRegistry.couchDb.username=cas",
+        "cas.serviceRegistry.couchDb.password=password"
     })
 @Category(CouchDbCategory.class)
 public class CouchDbServiceRegistryTests extends AbstractServiceRegistryTests {
